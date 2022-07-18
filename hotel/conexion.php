@@ -2,11 +2,12 @@
 
 $servidor="localhost";
 $usuario="root";
-$password="a";
+$password="";
+$base="integradoraHotel";
 
 //crear una variable para la conexion
 
-$conn=mysqli_connect($servidor,$usuario,$password);
+$conn=mysqli_connect($servidor,$usuario,$password,$base);
 
 //verificar la conexion
 
